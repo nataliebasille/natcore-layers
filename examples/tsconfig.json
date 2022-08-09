@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "",
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": "..",
+    "paths": {
+      "@layers": ["../src"]
+    },
+  },
+  "include": [
+    "../**/*"
+  ],
+}
